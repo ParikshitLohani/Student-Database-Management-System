@@ -1,0 +1,25 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "macOS",
+            "includePath": [
+                "/usr/local/mysql-connector-c++-9.1.0/include",          // Path to MySQL Connector/C++ headers
+                "/usr/local/mysql-connector-c++-9.1.0/include/jdbc",     // Path to JDBC headers (where mysql_connection.h is located)
+                "${workspaceFolder}/**"                                   // Your project folder path
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang++",                          // Specify the C++ compiler (clang++)
+            "intelliSenseMode": "macos-clang-x64",                        // IntelliSense mode for macOS
+            "cStandard": "c11",                                          // C Standard
+            "cppStandard": "c++17",                                      // C++ Standard (adjust if necessary)
+            "browse": {
+                "path": [
+                    "/usr/local/mysql-connector-c++-9.1.0/include",      // IntelliSense browsing path for MySQL headers
+                    "/usr/local/mysql-connector-c++-9.1.0/include/jdbc"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ]
+}

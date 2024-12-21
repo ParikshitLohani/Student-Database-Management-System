@@ -1,0 +1,3 @@
+/Users/saumya/Documents/parikshit/student_management_system/build/CMakeFiles/main.dir
+/Users/saumya/Documents/parikshit/student_management_system/build/CMakeFiles/edit_cache.dir
+/Users/saumya/Documents/parikshit/student_management_system/build/CMakeFiles/rebuild_cache.dir
